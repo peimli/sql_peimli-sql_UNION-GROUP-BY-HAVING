@@ -1,0 +1,2 @@
+SELECT category ,COUNT(category) FROM products 
+GROUP BY category;
