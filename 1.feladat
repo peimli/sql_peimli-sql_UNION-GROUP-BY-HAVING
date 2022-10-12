@@ -1,0 +1,7 @@
+SELECT ship_state_province FROM orders
+UNION 
+SELECT state_province FROM customers;
+-----------------------------------------
+SELECT ship_state_province FROM orders
+UNION ALL
+SELECT state_province FROM customers;
