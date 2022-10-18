@@ -1,3 +1,2 @@
-ELECT COUNT(category),category
-FROM products 
+SELECT COUNT(category),category FROM products 
 GROUP BY category;
